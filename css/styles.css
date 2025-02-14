@@ -8,11 +8,14 @@ body {
     padding: 0;
     width: 100%;
     overflow-y: auto; /* Adiciona rolagem vertical */
+    display: flex;
+    flex-direction: column;
 }
 
 .container-principal {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: auto; /* Altera para min-height para permitir rolagem */
+    min-height: auto;
+    flex-direction: column;
 }
